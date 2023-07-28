@@ -176,7 +176,8 @@ a[href*="?order="]:after,
 .Ssylki-anime-v-1-standard .Text-dno-ramka-standard,
 .Ssylki-anime-v-1 .Text-dno-ramka,
 .Ssylki-anime .Text-2,
-.l-top_menu-v2 .menu-dropdown>span span, .l-top_menu-v2 .menu-dropdown>span a{
+.l-top_menu-v2 .menu-dropdown>span span, .l-top_menu-v2 .menu-dropdown>span a,
+.b-link_button{
     font-size: var(--was-15px, 15px) !important;
 }
 /*Было 14.5px*/
@@ -211,7 +212,10 @@ body.p-achievements.p-profiles .b-list_switchers > *:after,
 .Ssylki-anime .Evaluation,
 .Anime-v-0-1 .Evaluation-v-v0,
 .p-topics .l-menu .calendar .entry .title, .p-topics .l-menu .critiques .entry .title, .p-topics .l-menu .clubs .entry .title,
-.p-topics .l-menu .sticky-topics .topic .title{
+.p-topics .l-menu .sticky-topics .topic .title,
+.p-profiles .cc-favourites > .c-anime .cover .image-cutter::before, .p-profiles .cc-favourites > .c-manga .cover .image-cutter::before,
+.b-add_to_list .trigger, .b-add_to_list .option,
+.b-db_entry-variant-list_item>.info .name .b-link{
     font-size: var(--was-14px, 14px) !important;
 }
 /*Было 13px*/
@@ -237,7 +241,10 @@ header.head .notice,
 input, select, textarea,
 .l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode,
 .b-shiki_editor-v2 footer .cancel, .b-shiki_editor-v2 footer .hide,
-.b-forums .forum .link-with-input .link{
+.b-forums .forum .link-with-input .link,
+.b-catalog_entry-tooltip .b-add_to_list .trigger,
+.tooltip-inner,
+.b-add_to_list .expanded-options .option{
     font-size: var(--was-13px, 13px) !important;
 }
 /*Было 12px*/
@@ -416,7 +423,11 @@ header.head .misc,
 .b-review-topic.is-review_review_author_details>.inner .review-info .user-rate-label,
 .b-review-topic.is-review_review_author_details>.inner .review-info .label,
 .b-review-topic.is-review_review_author_details>.inner .review-info .user-rate .b-add_to_list .trigger, .b-review-topic.is-review_review_author_details>.inner .review-info .user-rate .b-add_to_list .option,
-.b-animes-menu .total-rates{
+.b-animes-menu .total-rates,
+.b-catalog_entry-tooltip .b-add_to_list .option,
+.b-spoiler label,
+.b-forums .reload,
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .option{
     font-size: var(--was-12px, 12px) !important;
 }
 /*Было 11.5px*/
@@ -446,7 +457,8 @@ body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before
 .b-list_switchers .switcher.popularity::after,
 .b-list_switchers .switcher.progress::after,
 .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .critiques .entry .misc, .p-topics .l-menu .clubs .entry .misc,
-.b-video .name{
+.b-video .name,
+.b-achievement.is-badge:before{
     font-size: var(--was-11px, 11px) !important;
 }
 /*Было 10px*/
@@ -457,18 +469,21 @@ body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before
 body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a span.brackets, body#clubs_edit .b-options-floated a span.brackets,
 .b-collection-filters .block-list .filter:before,
 .b-collection-filters .b-block_list .filter:before,
-.bar.vertical .line .x_label{
+.bar.vertical .line .x_label,
+.l-footer .links{
     font-size: var(--was-10px, 10px) !important;
 }
 /*Было 9px*/
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate,
-.p-dashboards-show .subheadline-buttons a{
+.p-dashboards-show .subheadline-buttons a,
+header.head h1 a.back:after, header.head h2 a.back:after{
   font-size: var(--was-9px, 9px) !important;
 }
 /*Было 8px*/
 body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a, body#clubs_edit .b-options-floated a,
 body.p-profiles .subheadline .misc-links > a:before,
-.pika-table abbr{
+.pika-table abbr,
+.l-top_menu-v2 .menu-icon[data-count]:after{
   font-size: var(--was-8px, 8px) !important;
 }
 /*Было 7px*/
@@ -730,5 +745,8 @@ body#dialogs_show .l-footer .links,
   #profiles_show .c-column.c-left::before, #profiles_show .cc-2 .c-column .cc-2a.m30::before, #profiles_show .c-history::before, #profiles_show .c-info .c-lists-info::before,
   .b-catalog_entry .cover{
     font-size: var(--was-13px, 13px) !important;
+  }
+  .button-left-1 .b-link, .button-left-2 .b-link, .button-left-3 .b-link, .button-left-4 .b-link, .button-left-5 .b-link, .button-left-6 .b-link {
+    font-size: var(--was-16px, 16px) !important;
   }
 }
