@@ -102,7 +102,10 @@ body.p-achievements.p-profiles .headline:after,
 body.p-achievements.p-profiles .subheadline:after,
 body.p-achievements.p-profiles .headline:before,
 body.p-achievements.p-profiles .subheadline:before,
-.Ssylki-anime-v-1 .Fon{
+.Ssylki-anime-v-1 .Fon,
+.l-top_menu-v2 .menu-icon.forum:before,
+.l-top_menu-v2 .menu-icon.contest:before,
+.l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear{
   font-size: var(--was-20px, 20px) !important;
 }
 /*Было 19px*/
@@ -119,7 +122,25 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
 body.p-profiles .mass-actions .action a[href*='/dele']:after,
 .l-top_menu-v2 .menu-icon.mail:after,
 .Ssylki-anime-v-1-standard .Fon-standard,
-.l-top_menu-v2 .icon-forum:before{
+.l-top_menu-v2 .icon-forum:before,
+.l-top_menu-v2 .icon-clubs:before,
+.l-top_menu-v2 .icon-critiques:before,
+.l-top_menu-v2 .icon-articles:before,
+.l-top_menu-v2 .icon-users:before,
+.l-top_menu-v2 .icon-contests:before,
+.l-top_menu-v2 .icon-calendar:before,
+.l-top_menu-v2 .icon-info:before,
+.l-top_menu-v2 .icon-socials:before,
+.l-top_menu-v2 .icon-moderation:before,
+.l-top_menu-v2 .icon-anime_list:before,
+.l-top_menu-v2 .icon-manga_list:before,
+.l-top_menu-v2 .icon-mail:before,
+.l-top_menu-v2 .icon-achievements:before,
+.l-top_menu-v2 .icon-clubs:before,
+.l-top_menu-v2 .icon-settings:before,
+.l-top_menu-v2 .icon-site_rules:before,
+.l-top_menu-v2 .icon-faq:before,
+.l-top_menu-v2 .icon-sign_out:before{
     font-size: var(--was-18px, 18px) !important;
 }
 /*Было 17px*/
@@ -152,7 +173,8 @@ input[type="checkbox"]:checked:before,
 .buttons .item-moderation-cancel:before,
 .b-stats_bar.manga .compatibility a:before, .b-stats_bar.anime .compatibility a:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before,
 .b-question:before,
-.b-reviews_navigation .navigation-node.is-active{
+.b-reviews_navigation .navigation-node.is-active,
+.l-top_menu-v2 .icon-collections:before{
     font-size: var(--was-16px, 16px) !important;
 }
 /*Было 15.5px*/
@@ -745,12 +767,13 @@ body#dialogs_show .l-footer .links,
     }
 }
 @media screen and (min-width: 1024px) {
-  .icon.is-button[data-v-10fc0338] {
+  .icon.is-button[data-v-10fc0338],
+  .ProseMirror{
         font-size: var(--was-13px, 13px) !important;
   }
   .icon[data-v-10fc0338] {
         font-size: var(--was-14px, 14px) !important;
-  }
+  }    
 }
 @media screen and (min-width: 1200px) {
   #profiles_show .b-stats_bar .stat_names {
