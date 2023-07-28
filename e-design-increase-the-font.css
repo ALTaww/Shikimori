@@ -12,6 +12,7 @@
   --was-27px: calc(27px + var(--font-size-plus));
   --was-30px: calc(30px + var(--font-size-plus));
   --was-40px: calc(40px + var(--font-size-plus));
+  --was-12_5px: calc(12.5px + var(--font-size-plus));
   
   --was-24px: calc(24px + var(--font-size-plus));
   --was-20px: calc(20px + var(--font-size-plus));
@@ -174,7 +175,8 @@ a[href*="?order="]:after,
 .about .Animes_Mangas-1 .b-catalog_entry .cover .misc,
 .Ssylki-anime-v-1-standard .Text-dno-ramka-standard,
 .Ssylki-anime-v-1 .Text-dno-ramka,
-.Ssylki-anime .Text-2{
+.Ssylki-anime .Text-2,
+.l-top_menu-v2 .menu-dropdown>span span, .l-top_menu-v2 .menu-dropdown>span a{
     font-size: var(--was-15px, 15px) !important;
 }
 /*Было 14.5px*/
@@ -207,7 +209,9 @@ body.p-achievements.p-profiles .b-list_switchers > *:after,
 .Ssylki-anime-v-1-standard .Evaluation-v1-standard,
 .Ssylki-anime-v-1 .Evaluation-v1,
 .Ssylki-anime .Evaluation,
-.Anime-v-0-1 .Evaluation-v-v0{
+.Anime-v-0-1 .Evaluation-v-v0,
+.p-topics .l-menu .calendar .entry .title, .p-topics .l-menu .critiques .entry .title, .p-topics .l-menu .clubs .entry .title,
+.p-topics .l-menu .sticky-topics .topic .title{
     font-size: var(--was-14px, 14px) !important;
 }
 /*Было 13px*/
@@ -229,7 +233,11 @@ header.head .notice,
 .b-reviews_navigation .navigation-node-positive .count,
 .b-reviews_navigation .navigation-node-neutral .count,
 .b-reviews_navigation .navigation-node-negative .count,
-.b-reviews_navigation .navigation-node{
+.b-reviews_navigation .navigation-node,
+input, select, textarea,
+.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode,
+.b-shiki_editor-v2 footer .cancel, .b-shiki_editor-v2 footer .hide,
+.b-forums .forum .link-with-input .link{
     font-size: var(--was-13px, 13px) !important;
 }
 /*Было 12px*/
@@ -394,7 +402,21 @@ header.head .misc,
 .b-stats_bar .bar .second,
 .b-stats_bar .bar .third,
 .b-anime_status_tag.episode,
-.b-anime_status_tag.studio{
+.b-anime_status_tag.studio,
+.b-hot_topics-v2 .subject, .b-hot_topics-v2 .b-link,
+.b-db_entry-variant-list_item>.info .line,
+.b-poll .poll-variants .poll-variant.result .votes-percent, .b-poll .poll-variants .poll-variant.result .votes-total,
+.b-block_list li,
+.b-catalog_entry-tooltip .inner .text,
+.b-catalog_entry-tooltip .inner .line,
+.b-status-line,
+.b-hot_topics-v2 .subject, .b-hot_topics-v2 .b-link,
+.b-db_entry-variant-list_item>.info .line,
+.b-breadcrumbs,
+.b-review-topic.is-review_review_author_details>.inner .review-info .user-rate-label,
+.b-review-topic.is-review_review_author_details>.inner .review-info .label,
+.b-review-topic.is-review_review_author_details>.inner .review-info .user-rate .b-add_to_list .trigger, .b-review-topic.is-review_review_author_details>.inner .review-info .user-rate .b-add_to_list .option,
+.b-animes-menu .total-rates{
     font-size: var(--was-12px, 12px) !important;
 }
 /*Было 11.5px*/
@@ -422,7 +444,9 @@ body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before
 .b-catalog_entry .cover .image-decor > .text,
 .b-catalog_entry:hover .cover .image-decor > .text,
 .b-list_switchers .switcher.popularity::after,
-.b-list_switchers .switcher.progress::after{
+.b-list_switchers .switcher.progress::after,
+.p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .critiques .entry .misc, .p-topics .l-menu .clubs .entry .misc,
+.b-video .name{
     font-size: var(--was-11px, 11px) !important;
 }
 /*Было 10px*/
@@ -498,6 +522,9 @@ body#dialogs_show .l-footer .links,
 @media only screen and (min-width: 768px) {
   .l-top_menu-v2 .submenu > .legend {
     font-size: var(--was-10px, 10px) !important;
+  }
+  .l-top_menu-v2 .submenu>a {
+    font-size: var(--was-13px, 13px) !important;
   }
 }
 @media only screen and (min-width: 1025px) {
@@ -687,4 +714,21 @@ body#dialogs_show .l-footer .links,
   body.p-achievements.p-profiles .block.m0:before {
         font-size: var(--was-32px, 32px) !important;
     }
+}
+@media screen and (min-width: 1024px) {
+  .icon.is-button[data-v-10fc0338] {
+        font-size: var(--was-13px, 13px) !important;
+  }
+  .icon[data-v-10fc0338] {
+        font-size: var(--was-14px, 14px) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #profiles_show .b-stats_bar .stat_names {
+      font-size: var(--was-12_5px, 12.5px) !important;
+  }
+  #profiles_show .c-column.c-left::before, #profiles_show .cc-2 .c-column .cc-2a.m30::before, #profiles_show .c-history::before, #profiles_show .c-info .c-lists-info::before,
+  .b-catalog_entry .cover{
+    font-size: var(--was-13px, 13px) !important;
+  }
 }
