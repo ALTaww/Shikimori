@@ -1,0 +1,690 @@
+:root {
+  --font-size-plus: 0px;
+  --was-1_25em: calc(1.25em + var(--font-size-plus));
+  --was-1em: calc(1em + var(--font-size-plus));
+  --was-0_7em: calc(0.7em + var(--font-size-plus));
+  --was-32px: calc(32px + var(--font-size-plus));
+  --was-15_5px: calc(15.5px + var(--font-size-plus));
+  --was-14_5px: calc(14.5px + var(--font-size-plus));
+  --was-11_5px: calc(11.5px + var(--font-size-plus));
+  --was-26px: calc(26px + var(--font-size-plus));
+  --was-25px: calc(25px + var(--font-size-plus));
+  --was-27px: calc(27px + var(--font-size-plus));
+  --was-30px: calc(30px + var(--font-size-plus));
+  --was-40px: calc(40px + var(--font-size-plus));
+  
+  --was-24px: calc(24px + var(--font-size-plus));
+  --was-20px: calc(20px + var(--font-size-plus));
+  --was-19px: calc(19px + var(--font-size-plus));
+  --was-18px: calc(18px + var(--font-size-plus));
+  --was-17px: calc(17px + var(--font-size-plus));
+  --was-16px: calc(16px + var(--font-size-plus));
+  --was-15px: calc(15px + var(--font-size-plus));
+  --was-14px: calc(14px + var(--font-size-plus));
+  --was-13px: calc(13px + var(--font-size-plus));
+  --was-12px: calc(12px + var(--font-size-plus));
+  --was-11px: calc(11px + var(--font-size-plus));
+  --was-10px: calc(10px + var(--font-size-plus));
+  --was-9px: calc(9px + var(--font-size-plus));
+  --was-8px: calc(8px + var(--font-size-plus));
+  --was-7px: calc(7px + var(--font-size-plus));
+}
+
+
+/*Было 1.25em*/
+.fullwidth > .b-spoiler > label,
+.fullwidth > .b-spoiler > .content > .before {
+  font-size: var(--was-1_25em, 1.25em) !important;
+}
+/*Было 1em*/
+.Anime-v-0-1 .Text-g1 {
+  font-size: var(--was-1em, 1em) !important;
+}
+/*Было 0.7em*/
+.fullwidth > .b-spoiler > label::after {
+    font-size: var(--was-0_7em, 0.7em) !important;
+}
+/*Было var(--font-icons-size-m)*/
+.use-tabs [data-icon]::before {
+  font-size: var(--was-24px, var(--font-icons-size-m)) !important;
+}
+/*Было var(--font-size-base-desktop)*/
+body {
+  font-size: var(--was-13px, var(--font-size-base-desktop)) !important;
+}
+@media screen and (max-width: 1200px) {
+  body.p-achievements.p-profiles .block.m0:before {
+    font-size: var(--was-32px, 32px) !important;
+  }
+}
+@media screen and (min-width: 736px) and (max-width: 880px) {
+    .p-achievements-index .cc-achievements .b-achievement .c-about .text {
+        font-size: var(--was-11px, 11px) !important;
+    }
+    .b-achievement .c-about a.title {
+        font-size: var(--was-12px, 12px) !important;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 735px) {
+    .p-achievements-index .cc-achievements .b-achievement .c-about .text {
+        font-size: var(--was-11px, 11px) !important;
+    }
+    .b-achievement .c-about a.title {
+        font-size: var(--was-12px, 12px) !important;
+    }
+    .b-achievement .c-about .hint {
+        font-size: var(--was-10px, 10px) !important;
+    }
+    .b-achievement .c-about .percent {
+        font-size: var(--was-12px, 12px) !important;
+    }
+}
+/*Было 24px*/
+.profile-actions .mail::before,
+.profile-actions .talk::before,
+.profile-actions .fav-remove::before,
+.profile-actions .ban::before,
+.profile-actions .fav-add::before,
+.profile-actions .settings::before,
+.profile-actions .ignore-add::before,
+.profile-actions .ignore-remove::before,
+.profile-actions .ignore-remove::before,
+.profile-actions .fav-remove::before,
+.Ssylki-Characters .Text-1{
+    font-size: var(--was-24px, 24px) !important;
+}
+/*Было 20px*/
+.b-comments .comments-collapser:after,
+.css .b-link[href*="/edit/styles"]:before,
+body.p-achievements.p-profiles .headline:after,
+body.p-achievements.p-profiles .subheadline:after,
+body.p-achievements.p-profiles .headline:before,
+body.p-achievements.p-profiles .subheadline:before,
+.Ssylki-anime-v-1 .Fon{
+  font-size: var(--was-20px, 20px) !important;
+}
+/*Было 19px*/
+.b-comments-notifier,
+body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a:after, body#clubs_edit .b-options-floated a:after,
+.name-date a.name[title="morr"], a.name[href*="/morr"],
+.b-collection-filters .b-block_list li.selected:before{
+    font-size: var(--was-19px, 19px) !important;
+}
+/*Было 18px*/
+.b-collection_item .drag-handle:before, .b-collection_item .delete:before,
+.p-profiles-show .about .item-edit:before, .p-profiles-show .about .item-edit:after,
+.b-radio input[type="radio"] + .radio-label:before,
+body.p-profiles .mass-actions .action a[href*='/dele']:after,
+.l-top_menu-v2 .menu-icon.mail:after,
+.Ssylki-anime-v-1-standard .Fon-standard{
+    font-size: var(--was-18px, 18px) !important;
+}
+/*Было 17px*/
+.b-collection-filters .block-list li:before,
+.b-collection-filters .b-block_list li:before,
+.b-input input[type="checkbox"]:before,
+input[type="checkbox"]:before,
+input[type="checkbox"]:checked:before,
+.b-input input[type="checkbox"]:checked:before{
+  font-size: var(--was-17px, 17px) !important;
+}
+/*Было 16px*/
+.p-dashboards-show .v2 .db-update .name,
+.b-comment > .inner .name-date .name,
+.b-comment > .inner header .name-date a.name,
+.b-topic > .inner header .name-date a.name,
+.b-dialog > .inner header .name-date a.name,
+.b-message > .inner header .name-date a.name,
+.buttons .item-reply:before,
+.buttons .item-moderation:before,
+.buttons .item-edit:before,
+.buttons .item-delete:before,
+.buttons .item-ignore:before,
+.buttons .item-apply:before,
+.buttons .item-request-confirm:before,
+.buttons .item-delete-confirm:before,
+.buttons .item-cancel:before,
+.buttons .item-request-reject:before,
+.buttons .item-delete-cancel:before,
+.buttons .item-moderation-cancel:before,
+.b-stats_bar.manga .compatibility a:before, .b-stats_bar.anime .compatibility a:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before,
+.b-question:before,
+.b-reviews_navigation .navigation-node.is-active{
+    font-size: var(--was-16px, 16px) !important;
+}
+/*Было 15.5px*/
+.b-review-topic.is-review_review_author_details > .inner .review-details .name-url .name {
+  font-size: var(--was-15_5px, 15.5px) !important;
+}
+/*Было 15px*/
+.b-poll .poll .name,
+body.p-profiles .subheadline .misc-links > a:after,
+body.p-profiles .mass-actions .action a[href*='/read']:after,
+body.p-profiles .mass-actions .action a[href*='/dele']:after,
+.misc-links a[href*="/collections"]:after,
+.misc-links a[href*="/critiques"]:after,
+.misc-links a[href*="/articles"]:after,
+a[href*="?order="]:after,
+.b-collection-topic > .inner .see-more .text .inner,
+.b-stats_bar a.title,
+.b-stats_bar .title,
+.about .Animes_Mangas .b-catalog_entry .cover .title,
+.about .Animes_Mangas .b-catalog_entry .cover .misc,
+.about .Animes_Mangas-1 .b-catalog_entry .cover .title,
+.about .Animes_Mangas-1 .b-catalog_entry .cover .misc,
+.Ssylki-anime-v-1-standard .Text-dno-ramka-standard,
+.Ssylki-anime-v-1 .Text-dno-ramka,
+.Ssylki-anime .Text-2{
+    font-size: var(--was-15px, 15px) !important;
+}
+/*Было 14.5px*/
+.p-topics .l-menu .sticky-topics .topic:hover .title,
+.p-topics .l-menu .sticky-topics .topic .title:hover:after,
+.p-topics .l-menu .sticky-topics .topic:hover .title:after,
+.p-topics .l-menu .sticky-topics .topic:hover{
+    font-size: var(--was-14_5px, 14.5px) !important;
+}
+/*Было 14px*/
+.buttons .editor-italic:before,
+.buttons .editor-spoiler:before,
+.buttons .editor-smiley:before,
+.buttons .editor-quote:before,
+.buttons .editor-image:before,
+.buttons .editor-link:before,
+.buttons .editor-strike:before,
+.buttons .editor-underline:before,
+.buttons .editor-bold:before,
+.headline,
+.midheadline,
+.subheadline,
+.b-achievement .c-about a.title,
+body.p-achievements.p-profiles .b-list_switchers > *:after,
+.p-achievements.p-profiles-index .c-franchises .b-badge::after,
+.p-achievements.p-profiles-index .c-franchises .b-badge::before,
+.b-list_switchers .switcher.alphabet::after,
+.use-tabs.--On.--centered,
+.use-tabs.--Fat.--centered,
+.Ssylki-anime-v-1-standard .Evaluation-v1-standard,
+.Ssylki-anime-v-1 .Evaluation-v1,
+.Ssylki-anime .Evaluation,
+.Anime-v-0-1 .Evaluation-v-v0{
+    font-size: var(--was-14px, 14px) !important;
+}
+/*Было 13px*/
+.b-options-floated a,
+.b-options-floated .link,
+.b-comment > .inner div.body,
+.b-message > .inner div.body,
+.b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger,
+.b-spoiler_block > span,
+.b-hot_topics-v2 .topic.subject,
+.b-height_shortener .expand:after,
+.user_rates-minified .b-catalog_entry.planned .image-decor::after,
+.user_rates-minified .b-catalog_entry.watching .image-decor::after,
+.user_rates-minified .b-catalog_entry.completed .image-decor::after,
+.user_rates-minified .b-catalog_entry.rewatching .image-decor::after,
+.user_rates-minified .b-catalog_entry.on_hold .image-decor::after,
+.user_rates-minified .b-catalog_entry.dropped .image-decor::after,
+header.head .notice,
+.b-reviews_navigation .navigation-node-positive .count,
+.b-reviews_navigation .navigation-node-neutral .count,
+.b-reviews_navigation .navigation-node-negative .count,
+.b-reviews_navigation .navigation-node{
+    font-size: var(--was-13px, 13px) !important;
+}
+/*Было 12px*/
+.p-animes-show .other-names.click-loader:before,
+.p-mangas-show .other-names.click-loader:before,
+.p-ranobe-show .other-names.click-loader:before,
+.b-list_switchers .switcher.posters:after,
+.b-catalog_entry .cover .misc,
+.p-dashboards-show .midheadline .b-link,
+.p-dashboards .user_list .list-type > .title .switch,
+.p-dashboards .user_list .list-type > .title .link,
+.p-dashboards .user_list .history > .title .switch,
+.p-dashboards .user_list .history > .title .link,
+.p-dashboards .user_list .list-change .note,
+.p-dashboards .c-my_list .list-change .note,
+.bar.vertical .line .x_label,
+.p-dashboards-show .contests .contest .notice,
+.b-forums .forum .topics,
+.name-date .time,
+.p-profiles .profile-head .c-history .entry .misc,
+.p-profiles-show .lifetime .times .time,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement,
+.b-comment > .inner header .name-date .time,
+.b-replies,
+.b-options-floated,
+.p-messages .mass-actions .action,
+.p-animes_collection-index .pagination,
+.p-mangas_collection-index .pagination,
+.p-recommendations-index .pagination,
+.p-userlist_comparer-show .pagination,
+.b-rate .score-notice,
+.b-animes-menu .block-list .date,
+.bar.horizontal .line .x_label,
+.b-animes-menu .friend-rate .status,
+.b-summary_marker::before,
+.b-offtopic_marker::before,
+.tipsy,
+header.head .misc,
+header.head a.edit,
+.p-studios .studio .animes,
+.p-studios .studio .years,
+.p-contests .contest-match .vs .help,
+.p-contests .contest-match .vs .next,
+.p-contests .contest-match .vs .finish,
+.p-contests .contest-match .vs .refrain,
+.p-contests .contest-match .vs .refrained,
+.p-contests .match-day .matches-num,
+.b-lang_trigger,
+.b-club .info,
+.b-new_marker::before,
+.b-user.detailed .info .last-online,
+.b-user.detailed .history .line .date,
+.p-recommendations-index .b-header_filters .hint,
+.p-recommendations-favourites .b-header_filters .hint,
+.p-userlist_comparer .comparer table .notice,
+.p-topics .l-menu .calendar .entry .misc,
+.p-topics .l-menu .reviews .entry .misc,
+.p-topics .l-menu .clubs .entry .misc,
+.p-topics .l-menu .contests .contest .notice,
+.p-topics .l-menu .sticked-topics .topic .notice,
+.b-video_player .cc-player_controls .label,
+.b-video_player .cc-player_controls .episode-title .video-link,
+.b-log_entry .date,
+.b-log_entry .spoiler.collapse,
+.b-log_entry .spoiler.collapsed,
+.b-log_entry .spoiler.collapse span,
+.b-log_entry .spoiler.collapsed span,
+.b-js-action,
+.b-input .hint,
+.b-review-topic .review-votes_count,
+.p-dashboard .l-menu .ongoing .misc,
+.p-dashboard .l-menu .season .notice,
+.p-topics .l-menu .sticky-topics .topic .notice,
+.b-hot_topics .topic,
+.b-show_more,
+.b-show_more-more .hide-more, 
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
+.b-dialog .to_dialog,
+header.head a.misc,
+.subheadline .misc-link:hover,
+.p-profiles .profile-head .c-info .c-additionals div a,
+a.name,
+body[data-locale=ru] .b-new_marker::before, body[data-locale=ru] .b-summary_marker::before, body[data-locale=ru] .b-offtopic_marker::before, body[data-locale=ru] .b-abuse_marker:before,
+body * [class*="_marker"]:before, body * [class*="_status_tag"]:before,
+body * [class*="_status_tag"]:not([data-text]), body * [class*="_marker"]:not([data-text]),
+.p-contests-index .contest .date,
+.b-height_shortener .expand:before,
+.b-achievement .c-about .hint,
+.p-dashboards-show .v2 .my-list .label .misc-links a:before,
+.b-shiki_editor footer .about-bb_codes,
+.b-catalog_entry .cover .misc,
+.p-dashboards-show .midheadline .b-link,
+.p-dashboards .user_list .list-type > .title .switch,
+.p-dashboards .user_list .list-type > .title .link,
+.p-dashboards .user_list .history > .title .switch,
+.p-dashboards .user_list .history > .title .link,
+.p-dashboards .user_list .list-change .note,
+.p-dashboards .c-my_list .list-change .note,
+.p-dashboards-show .contests .contest .notice,
+.b-forums .forum .topics,
+.name-date .time,
+.p-profiles .profile-head .c-history .entry .misc,
+.p-profiles-show .lifetime .times .time,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement,
+.b-comment > .inner header .name-date .time,
+.b-replies,
+.b-options-floated,
+.p-messages .mass-actions .action,
+.p-animes_collection-index .pagination,
+.p-mangas_collection-index .pagination,
+.p-recommendations-index .pagination,
+.p-userlist_comparer-show .pagination,
+.b-show_more,
+.b-rate .score-notice,
+.b-animes-menu .block-list .date,
+.bar.horizontal .line .x_label,
+.b-animes-menu .friend-rate .status,
+.bar.horizontal .line .bar-container .value,
+.tipsy,
+header.head a.edit,
+.p-studios .studio .animes,
+.p-studios .studio .years,
+.p-contests-index .contest .date,
+.p-contests .contest-match .vs .help,
+.p-contests .contest-match .vs .next,
+.p-contests .contest-match .vs .finish,
+.p-contests .contest-match .vs .refrain,
+.p-contests .contest-match .vs .refrained,
+.p-contests .match-day .matches-num,
+.b-lang_trigger,
+.b-club .info,
+.b-user.detailed .info .last-online,
+.b-user.detailed .history .line .date,
+.p-recommendations-index .b-header_filters .hint,
+.p-recommendations-favourites .b-header_filters .hint,
+.p-userlist_comparer .comparer table .notice,
+.p-topics .l-menu .calendar .entry .misc,
+.p-topics .l-menu .reviews .entry .misc,
+.p-topics .l-menu .clubs .entry .misc,
+.p-topics .l-menu .contests .contest .notice,
+.p-topics .l-menu .sticked-topics .topic .notice,
+.b-video_player .cc-player_controls .label,
+.b-video_player .cc-player_controls .episode-title .video-link,
+.b-log_entry .date,
+.b-log_entry .spoiler.collapse,
+.b-log_entry .spoiler.collapsed,
+.b-log_entry .spoiler.collapse span,
+.b-log_entry .spoiler.collapsed span,
+.b-js-action,
+.b-input .hint,
+.b-review-topic .review-votes_count,
+.b-show_more-more .hide-more,
+.p-dashboard .l-menu .ongoing .misc,
+.p-dashboard .l-menu .season .notice,
+.p-topics .l-menu .sticky-topics .topic .notice,
+.b-hot_topics .topic,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
+header.head .misc,
+.b-link_button.maxi,
+.create-topic,
+.b-stats_bar .bar .first,
+.b-stats_bar .bar .second,
+.b-stats_bar .bar .third,
+.b-anime_status_tag.episode,
+.b-anime_status_tag.studio{
+    font-size: var(--was-12px, 12px) !important;
+}
+/*Было 11.5px*/
+.b-catalog_entry .cover .title.two_lined {
+  font-size: var(--was-11_5px, 11.5px) !important;
+}
+/*Было 11px*/
+.p-anime_videos-index .c-anime_video_episodes .title,
+.p-anime_videos-index .c-videos .title,
+.tipsy-inner,
+.p-profiles-show .lifetime .cuts .cut:after,
+.p-profiles .profile-head .c-brief header.head .misc,
+.b-dialog .to_dialog:after, .to-review:after,
+.p-profiles-show .about .item-edit:before,
+body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before, .midheadline .misc-links > a:before, .subheadline .misc-links > a:before,
+.name-date a.name[title="morr"]::after,
+.name-date a.name[href*="/morr"]::after,
+.subheadline a[title="morr"]::after,
+.name-date a.name[title="EngiNier"]::after,
+.name-date a.name[href*="/EngiNier"]::after,
+.subheadline a[title="EngiNier"]::after,
+.name-date a.name[title="Cosmo+%E2%98%AD"]:after,
+.name-date a.name[href*="/Cosmo+%E2%98%AD"]:after,
+.subheadline a[title="Cosmo+%E2%98%AD"]:after,
+.b-catalog_entry .cover .image-decor > .text,
+.b-catalog_entry:hover .cover .image-decor > .text,
+.b-list_switchers .switcher.popularity::after,
+.b-list_switchers .switcher.progress::after{
+    font-size: var(--was-11px, 11px) !important;
+}
+/*Было 10px*/
+.poll .text,
+.p-dashboards-show .generated-news-line .b-tag,
+.youtube .marker,
+.vk .marker,
+body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a span.brackets, body#clubs_edit .b-options-floated a span.brackets,
+.b-collection-filters .block-list .filter:before,
+.b-collection-filters .b-block_list .filter:before,
+.bar.vertical .line .x_label{
+    font-size: var(--was-10px, 10px) !important;
+}
+/*Было 9px*/
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate,
+.p-dashboards-show .subheadline-buttons a{
+  font-size: var(--was-9px, 9px) !important;
+}
+/*Было 8px*/
+body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a, body#clubs_edit .b-options-floated a,
+body.p-profiles .subheadline .misc-links > a:before,
+.pika-table abbr{
+  font-size: var(--was-8px, 8px) !important;
+}
+/*Было 7px*/
+body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a[href*="/notifi"], body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a[href*="/edit/list"], body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a[href*="/edit/sty"], body#clubs_edit .b-options-floated a[href*="/notifi"], body#clubs_edit .b-options-floated a[href*="/edit/list"], body#clubs_edit .b-options-floated a[href*="/edit/sty"] {
+    font-size: var(--was-7px, 7px) !important;
+}
+/*Было 0*/
+.p-user_rates-index .l-content .b-options-floated span:before,
+.p-user_rates-index .l-content .b-options-floated span:after,
+.headline > a:before,
+.midheadline > a:before,
+.subheadline > a:before,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero, .b-stats_bar .compatibility .text.high, .b-stats_bar .compatibility .text.moderate, .b-stats_bar .compatibility .text.full,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate:after,
+.subheadline .count:before, .subheadline .count:after,
+.b-options-floated a span.brackets:before, .b-options-floated .link span.brackets:before, .b-options-floated a span.brackets:after, .b-options-floated .link span.brackets:after,
+.p-user_rates-index .list-groups .summary .stat-value:after,
+.b-comments .comments-collapser,
+.b-height_shortener .expand,
+.b-height_shortener .expand:hover,
+.b-dialog .to_dialog, .to-review,
+body.p-profiles .subheadline .misc-links > a,
+body.p-profiles .mass-actions .action a, body .headline .misc-links a, body .midheadline .misc-links a, body .subheadline .misc-links a,
+body.p-achievements.p-profiles .b-list_switchers > *,
+.p-dashboards-show .v2 .my-list .label .misc-links a,
+.b-video_variant[data-episode="0"] .episode-num,
+body#messages_index .l-footer .links,
+body#dialogs_index .l-footer .links,
+body#dialogs_show .l-footer .links,
+.c-videos .video-kind.russian,
+.c-videos .video-kind.english,
+.c-videos .video-kind.original,
+.c-videos .video-kind.unknown,
+.b-feedback > .marker-positioner > .marker-text,
+.css .b-link[href*="/edit/styles"],
+.Ssylki-anime .b-link,
+.Ssylki-anime-v-1 .b-link,
+.Ssylki-anime-v-1-standard .b-link,
+.Ssylki-Characters .b-link{
+    font-size: 0 !important;
+}
+@media screen and (max-width: 768px) {
+  body.p-db_entries-works .p-profiles .mass-actions .action a,
+  body.p-db_entries-works .headline .misc-links a,
+  body.p-db_entries-works .midheadline .misc-links a,
+  body.p-db_entries-works .subheadline .misc-links a {
+    font-size: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .l-top_menu-v2 .submenu > .legend {
+    font-size: var(--was-10px, 10px) !important;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .b-edit_styles .edit_style .style_css label:after {
+    font-size: var(--was-12px, 12px) !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+    .p-profiles-show .lifetime .times .time,
+    .p-profiles-show .lifetime .title .value {
+        font-size: var(--was-10px, 10px) !important;
+    }
+}
+@media screen and (max-width: 1023px) {
+  .p-profiles-favorites .item-edit:after,
+  .p-profiles .profile-head .c-info .c-additionals div:after,
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement{
+        font-size: 0 !important;
+    }
+  .b-stats_bar .stat_names,
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before,
+    .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before,
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before,
+    .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before{
+    font-size: var(--was-10px, 10px) !important;
+  }
+  .buttons .item-reply:before,
+    .buttons .item-moderation:before,
+    .buttons .item-edit:before,
+    .buttons .item-delete:before,
+    .buttons .item-ignore:before,
+    .buttons .item-apply:before,
+    .buttons .item-request-confirm:before,
+    .buttons .item-delete-confirm:before,
+    .buttons .item-cancel:before,
+    .buttons .item-request-reject:before,
+    .buttons .item-delete-cancel:before,
+    .buttons .item-moderation-cancel:before,
+  .l-page .menu-toggler .toggler:after,
+    .l-page.menu-expanded .menu-toggler .toggler:after{
+        font-size: var(--was-23px, 23px) !important;
+    }
+  .l-page.menu-expanded .menu-toggler .toggler:after,
+  .b-stats_bar.anime .compatibility a:before,
+  .b-stats_bar.manga .compatibility a:before{
+        font-size: var(--was-26px, 26px) !important;
+    }
+  ul.b-block_list,
+  .p-profiles .profile-head .c-info .c-additionals div a{
+        font-size: var(--was-15px, 15px) !important;
+    }
+  .b-comment > .inner header .name-date a.name,
+    .b-topic > .inner header .name-date a.name,
+    .b-dialog > .inner header .name-date a.name,
+    .b-message > .inner header .name-date a.name,
+  .b-main_search .input input{
+        font-size: var(--was-14px, 14px) !important;
+    }
+    .b-dialog > .inner > header .name-date a.name,
+  .b-stats_bar a.title,
+    .b-stats_bar .title{
+        font-size: var(--was-16px, 16px) !important;
+    }
+  .buttons .editor-italic:before,
+    .buttons .editor-spoiler:before,
+    .buttons .editor-smiley:before,
+    .buttons .editor-quote:before,
+    .buttons .editor-image:before,
+    .buttons .editor-link:before,
+    .buttons .editor-strike:before,
+    .buttons .editor-underline:before,
+    .buttons .editor-bold:before,
+  .b-hot_topics .topic.subject:after,
+  .b-hot_topics .topic.subject:before{
+        font-size: var(--was-22px, 22px) !important;
+    }
+  .b-collection-filters .b-block_list li.selected:before,
+    .b-collection-filters .block-list li:before,
+    .b-collection-filters .b-block_list li:before,
+  .b-stats_bar.manga .compatibility a:before,
+    .b-stats_bar.anime .compatibility a:before,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before,
+    .b-stats_bar .compatibility .text.high:before,
+    .b-stats_bar .compatibility .text.moderate:before,
+    .b-stats_bar .compatibility .text.full:before{
+        font-size: var(--was-25px, 25px) !important;
+    }
+  * .c-brief header.head h1 {
+        font-size: var(--was-27px, 27px) !important;
+    }
+
+    header.head .notice,
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate{
+        font-size: var(--was-10px, 10px) !important;
+    }
+  .p-profiles .profile-head .c-info .c-additionals div {
+        font-size: var(--was-13px, 13px) !important;
+    }
+
+    .p-profiles .profile-head .c-info .c-additionals div a,
+    .p-profiles .profile-head .c-info .c-additionals div[data-type="video_changes"] span,
+  .p-profiles .profile-head .c-info .c-additionals div a{
+        font-size: var(--was-11px, 11px) !important;
+    }
+  .profile-actions .mail:before,
+    .profile-actions .talk:before,
+    .profile-actions .fav-remove:before,
+    .profile-actions .ban:before,
+    .profile-actions .fav-add:before,
+    .profile-actions .settings:before,
+    .profile-actions .ignore-add:before,
+    .profile-actions .ignore-remove:before,
+    .profile-actions .talk:before {
+        font-size: var(--was-30px, 30px) !important;
+    }
+  .b-breadcrumbs,
+  header.head .notice,
+  .subheadline.m13,
+  .p-profiles .profile-head .c-brief header .notice{
+        font-size: var(--was-12px, 12px) !important;
+    }
+  .b-hot_topics .topic.subject {
+        font-size: var(--was-18px, 18px) !important;
+    }
+  .c-actions .new_comment:before,
+    .c-actions .new_review:before,
+    .c-actions .edit:before,
+    .c-actions .fav-add:before,
+    .c-actions .fav-remove:before {
+        font-size: var(--was-40px, 40px) !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .was_updated span {
+        font-size: 0 !important;
+    }
+    .was_updated span:before,
+  a.actor.b-user16 span{
+        font-size: var(--was-12px, 12px) !important;
+    }
+}
+@media screen and (max-width: 350px) and (orientation: portrait) {
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before,
+    .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before {
+        font-size: var(--was-10px, 10px) !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+  body.p-achievements.p-profiles .block.m0:before {
+        font-size: var(--was-32px, 32px) !important;
+    }
+}
+@media screen and (min-width: 736px) and (max-width: 880px) {
+  .p-achievements-index .cc-achievements .b-achievement .c-about .text {
+        font-size: var(--was-11px, 11px) !important;
+    }
+    .b-achievement .c-about a.title {
+        font-size: var(--was-12px, 12px) !important;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 735px) {
+    .p-achievements-index .cc-achievements .b-achievement .c-about .text {
+        font-size: var(--was-11px, 11px) !important;
+    }
+    .b-achievement .c-about a.title,
+  .b-achievement .c-about .percent{
+        font-size: var(--was-12px, 12px) !important;
+    }
+    .b-achievement .c-about .hint {
+        font-size: var(--was-10px, 10px) !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .c-history .subheadline a,
+  .c-history .subheadline{
+        font-size: 0 !important;
+  }
+  .c-history .subheadline a:after,
+    .c-history .subheadline::before {
+        font-size: var(--was-20px, 20px) !important;
+  }
+}
+@media screen and (max-width: 599px) {
+  body.p-achievements.p-profiles .block.m0:before {
+        font-size: var(--was-32px, 32px) !important;
+    }
+}
