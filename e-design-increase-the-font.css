@@ -240,7 +240,8 @@ body.p-achievements.p-profiles .b-list_switchers > *:after,
 .p-profiles .cc-favourites > .c-anime .cover .image-cutter::before, .p-profiles .cc-favourites > .c-manga .cover .image-cutter::before,
 .b-add_to_list .trigger, .b-add_to_list .option,
 .b-db_entry-variant-list_item>.info .name .b-link,
-.p-profiles .cc-favourites .c-character .image-cutter::before{
+.p-profiles .cc-favourites .c-character .image-cutter::before,
+.p-profiles .profile-head .c-history .entry .title{
     font-size: var(--was-14px, 14px) !important;
 }
 /*Было 13px*/
