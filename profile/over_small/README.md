@@ -1,0 +1,11 @@
+10.09.23
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/22e8af1f-0e1b-49d1-909f-bd45bea2b5e5)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/d384c436-8a2d-4a2d-9ec7-1b2e3bac29cd)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/ea459714-4758-4b87-9247-eb49489bef32)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/0ae962b6-11f8-4ae1-9384-8b0d4af58a65)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/11da8fbe-3295-4af7-94f0-817b3f27d4f2)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/73c8b05e-33a6-46d0-aa7b-9b369e29dfb6)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/1dbc4313-1035-4bba-9156-51b415243172)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/799a2eda-c717-49ec-afc2-004d76b6bcf7)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/e7bcffb7-fd62-4530-a191-1a4bf3bf321c)
+![image](https://github.com/ALTaww/Shikimori/assets/123657665/4e258b23-778d-40bd-911f-0167d8ec8160)
