@@ -458,7 +458,8 @@ header.head .misc,
 .p-profiles-show .lifetime .title .value,
 .b-user_history-line .date::before, .b-user_history-line .date::after,
 .p-user_rates-index .list-posters .user_rate>.text,
-.p-user_rates-index .list-lines tr td .rate-text{
+.p-user_rates-index .list-lines tr td .rate-text,
+.b-achievement .c-about .percent, .b-achievement .about .percent{
     font-size: var(--was-12px, 12px) !important;
 }
 /*Было 11.5px*/
@@ -492,7 +493,8 @@ body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before
 .b-achievement.is-badge:before,
 .l-top_menu-v2 .submenu>a.icon-mail span.unread,
 .b-user_rate_log .date,
-.b-user_rate_log .spoiler.collapse span, .b-user_rate_log .spoiler.collapsed span{
+.b-user_rate_log .spoiler.collapse span, .b-user_rate_log .spoiler.collapsed span,
+.p-profiles-show .achievements .header .size {
     font-size: var(--was-11px, 11px) !important;
 }
 /*Было 10px*/
