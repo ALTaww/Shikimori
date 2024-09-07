@@ -1,0 +1,136 @@
+/*На странице профиля*/
+#profiles_show .stat_names {
+  background: rgba(var(--menu-back), 0.7);
+  border-radius: 4px;
+  text-align: left;
+  height: auto;
+  width: max-content;
+  position: initial;
+  margin: 0 auto 8px auto;
+}
+
+#profiles_show .stat_names .stat_name a {
+  position: relative;
+  display: block;
+  padding: 8px;
+  margin: 2px 0;
+  border-radius: 4px;
+  color: #5e6988;
+  font-size: 0;
+  font-weight: normal;
+  line-height: 0;
+}
+
+#profiles_show .stat_names .stat_name a:before  {
+  display: block;
+  flex-shrink: 0;
+  width: 1em !important;
+  font-family: 'Material Icons' !important;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  letter-spacing: normal;
+  text-transform: none;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+  overflow: hidden;
+  color: rgba(var(--light-color), 0.8);
+  padding: 8px;
+  border-radius: 50%;
+}
+#profiles_show .stat_names .stat_name a[href*='planned']:before {
+  content: 'today';
+}
+#profiles_show .stat_names .stat_name a[href*='=watching']:before {
+  content: 'play_arrow';
+}
+#profiles_show .stat_names .stat_name a[href*='=rewatching']:before {
+  content: 'replay';
+}
+#profiles_show .stat_names .stat_name a[href*='completed']:before {
+  content: 'done';
+}
+#profiles_show .stat_names .stat_name a[href*='on_hold']:before {
+  content: 'schedule';
+}
+#profiles_show .stat_names .stat_name a[href*='dropped']:before {
+  content: 'delete';
+}
+
+#profiles_show .stat_names .stat_name a:after  {
+  display: block !important;
+  position: absolute;
+  padding: 0.375rem 0.75rem;
+  margin: 0.25rem 0.75rem;
+  background-color: rgba(var(--popup-color), 0.9);
+  border-radius: 0.125rem;
+  color: rgb(var(--white-color));
+  font-size: .875rem;
+  line-height: 1.25rem;
+  white-space: nowrap;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  transition: .3s;
+  top: 0;
+  height: 20px;
+}
+#profiles_show .stat_names .stat_name a[href*='planned']:after {
+  content: 'Запланировано';
+}
+#profiles_show .stat_names .stat_name a[href*='=watching']:after {
+  content: 'Смотрю';
+}
+#profiles_show .b-stats_bar.manga .stat_names .stat_name a[href*='=watching']:after {
+  content: 'Читаю';
+}
+#profiles_show .stat_names .stat_name a[href*='completed']:after {
+  content: 'Просмотрено';
+}
+#profiles_show .b-stats_bar.manga .stat_names .stat_name a[href*='completed']:after {
+  content: 'Прочитано';
+}
+#profiles_show .stat_names .stat_name a[href*='=rewatching']:after {
+  content: 'Пересматриваю';
+}
+#profiles_show .b-stats_bar.manga .stat_names .stat_name a[href*='=rewatching']:after {
+  content: 'Перечитываю';
+}
+#profiles_show .stat_names .stat_name a[href*='on_hold']:after {
+  content: 'Отложено';
+}
+#profiles_show .stat_names .stat_name a[href*='dropped']:after {
+  content: 'Брошено.';
+}
+
+#profiles_show .b-stats_bar .stat_names .stat_name .size {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px 4px;
+  margin: 6px 4px;
+  background: #5e6988;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  line-height: .8;
+}
+
+#profiles_show .stat_names .stat_name a:hover::before, #profiles_show .stat_names .stat_name a.selected::before {
+  background-color: rgba(var(--popup-color), 1);
+  color: rgba(var(--light-color), 1);
+}
+#profiles_show .stat_names .stat_name a:hover::after {
+  transform: translateX(40px);
+  opacity: .9
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name::after {
+  display: none;
+}
